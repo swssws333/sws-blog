@@ -19,7 +19,8 @@ const geistMono = Geist_Mono({
  */
 export const metadata: Metadata = {
   title: "孙文升的博客",
-  description: "孙文升的博客",
+  description: "欢迎来到孙文升的博客",
+  keywords: ["孙文升的博客", "孙文升", "博客", "孙文升博客"],
   icons: {
     // 其中 public自动映射到 / 根目录
     icon: '/metadata/favicon.ico', // 或者其他路径（public下）

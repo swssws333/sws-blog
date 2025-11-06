@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
  * 元数据
  */
 export const metadata: Metadata = {
-  title: "孙文升的博客",
+  title: "孙文升的博客 | Wensheng's blog",
   description: "欢迎来到孙文升的博客",
   keywords: ["孙文升的博客", "孙文升", "博客", "孙文升博客"],
   icons: {
@@ -34,9 +34,7 @@ type propType = Readonly<{
 export default function RootLayout({children}: propType) {
   return (
     <html lang="en">
-    <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-    >
+    <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
     {children}
     </body>
     </html>
